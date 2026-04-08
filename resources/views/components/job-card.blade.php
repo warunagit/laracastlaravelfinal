@@ -1,4 +1,4 @@
-<div class="p-4 bg-white/5 rounded-xl flex flex-col text-center border-transparent hover:border-violet-500 group">
+<x-panel class="flex flex-col text-center">
 
     <div class="self-start text-sm">Laracast</div>
 
@@ -8,13 +8,13 @@
     </div>
 
     <div class="flex justify-between items-center mt-auto">
-        <dvi>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
-        </dvi>
+        <div>
+            <x-tag size="small">Backend</x-tag>
+            <x-tag size="small">Frontend</x-tag>
+            <x-tag size="small">Manager</x-tag>
+        </div>
 
         <x-employer-logo/>
     </div>
 
-</div>
+</x-panel>

@@ -1,4 +1,4 @@
-<div class="p-4 bg-white/5 rounded-xl flex gap-x-6 border-transparent hover:border-violet-500 group transition-colors duration-500">
+<x-panel class="flex gap-x-5">
 
     <div>
         <x-employer-logo :width="98" :height="90"/>
@@ -10,10 +10,10 @@
         <p class="text-sm text-gray-400 mt-auto">Full Time - From $60,000</p>
     </div>
 
-    <div class="">
+    <div">
         <x-tag>Tag</x-tag>
         <x-tag>Tag</x-tag>
         <x-tag>Tag</x-tag>
     </div>
 
-</div>
+</x-panel>
