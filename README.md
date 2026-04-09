@@ -33,3 +33,17 @@ php artisan make:model Job -all
 -deploy the tables from migration files
 php artisan migrate
 
+-define relationships in model classes
+\app\Models\..
+
+-configure factory files
+\database\factories\
+
+-write test methods
+\phpunit.xml
+php artisan make:test -> Unit
+
+files can find under \tests\Unit directory
+php artisan test
+
+seed database
