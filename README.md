@@ -47,3 +47,11 @@ files can find under \tests\Unit directory
 php artisan test
 
 seed database
+php artisan migrate:fresh --seed
+
+create controllers as need Routes
+php artisan make:controller SessionController --resource
+
+to upload files, should enable on .env file
+FILESYSTEM_DISK=local -> FILESYSTEM_DISK=public
+files will upload to \storage\app\public
