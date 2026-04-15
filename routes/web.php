@@ -11,7 +11,7 @@ Route::get('/',[JobController::class,'index']);
 
 Route::middleware('auth')->group(function (){
     Route::get('/jobs/create',[JobController::class,'create']);
-    Route::put('/jobs',[JobController::class,'store']);
+    Route::post('/jobs',[JobController::class,'store']);
 });
 
 Route::get('/search',[SearchController::class,'__invoke']);
