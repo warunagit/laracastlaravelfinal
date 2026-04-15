@@ -55,3 +55,6 @@ php artisan make:controller SessionController --resource
 to upload files, should enable on .env file
 FILESYSTEM_DISK=local -> FILESYSTEM_DISK=public
 files will upload to \storage\app\public
+
+make controller class with __invoke method
+it is a single action class to handle searches and results

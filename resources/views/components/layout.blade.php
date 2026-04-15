@@ -15,7 +15,7 @@
                 </a>
             </div>
             <div class="space-x-6 font-bold">
-                <a href="">Jobs</a>
+                <a href="/">Jobs</a>
                 <a href="">Careers</a>
                 <a href="">Salaries</a>
                 <a href="">Companies</a>
@@ -23,7 +23,7 @@
 
             @auth
             <div>
-                <a href="">Post a Job</a>
+                <a href="/jobs/create">Post a Job</a>
             </div>
             @endauth
 
