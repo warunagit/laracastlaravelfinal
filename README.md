@@ -58,3 +58,7 @@ files will upload to \storage\app\public
 
 make controller class with __invoke method
 it is a single action class to handle searches and results
+
+private images converted to public link
+php artisan storage:link
+had to add src='storage/
